@@ -35,6 +35,8 @@ class User extends Authenticatable
         'points', 
         'password', 
         'remember_token',
+        'created_at',
+        'updated_at',
     ];
 
     protected $table = 'users';
