@@ -14,7 +14,7 @@ class CommentController extends Controller
      */
     public function index()
     {
-        //
+        return view('systems.comments.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class CommentController extends Controller
      */
     public function create()
     {
-        //
+        return view('systems.comments.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class CommentController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('systems.comments.show');
     }
 
     /**

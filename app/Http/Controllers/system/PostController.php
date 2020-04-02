@@ -14,7 +14,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        return view('systems.posts.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('systems.posts.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('systems.posts.show');
     }
 
     /**

@@ -14,7 +14,7 @@ class RatingController extends Controller
      */
     public function index()
     {
-        //
+        return view('systems.ratings.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class RatingController extends Controller
      */
     public function create()
     {
-        //
+        return view('systems.ratings.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class RatingController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('systems.ratings.show');
     }
 
     /**

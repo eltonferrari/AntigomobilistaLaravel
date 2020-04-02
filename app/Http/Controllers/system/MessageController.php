@@ -14,7 +14,7 @@ class MessageController extends Controller
      */
     public function index()
     {
-        //
+        return view('systems.messages.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class MessageController extends Controller
      */
     public function create()
     {
-        //
+        return view('systems.messages.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class MessageController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('systems.messages.show');
     }
 
     /**

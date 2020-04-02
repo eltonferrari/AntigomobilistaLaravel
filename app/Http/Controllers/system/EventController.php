@@ -14,7 +14,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        //
+        return view('systems.events.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class EventController extends Controller
      */
     public function create()
     {
-        //
+        return view('systems.events.create');
     }
 
     /**
@@ -46,7 +46,7 @@ class EventController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('systems.events.show');
     }
 
     /**
