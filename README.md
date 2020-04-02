@@ -1,4 +1,4 @@
-<p align="center" style="font-size: 20px">Sistema WEB responsivo para interação entre antigomobilistas<br>EM DESENVOLVIMENTO</p>
+<h1 align="center">Sistema WEB responsivo para interação entre antigomobilistas<br>EM DESENVOLVIMENTO</h1>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
