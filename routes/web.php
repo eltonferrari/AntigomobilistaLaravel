@@ -13,10 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::auth();
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('users', 'system\UserController')->middleware('auth');
+Route::resource('posts', 'system\PostController')->middleware('auth');
+Route::resource('events', 'system\EventController')->middleware('auth');
+Route::resource('messages', 'system\MessageController')->middleware('auth');
+Route::resource('comments', 'system\CommentController')->middleware('auth');
+Route::resource('ratings', 'system\RatingController')->middleware('auth');
