@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../resources/sass/personalized_style.css",
+	"sources": [
+		"../../resources/sass/personalized_style.scss"
+	],
+	"sourcesContent": [
+		"#espacamento {\r\n    height: 35px;\r\n}"
+	],
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACT,MAAM,EAAE,IAAK;CAChB",
+	"names": []
+}
