@@ -57,7 +57,7 @@ class PostController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('systems.posts.edit', compact('id'));
     }
 
     /**

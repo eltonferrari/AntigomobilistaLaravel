@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Visualizar Evento')
+
 @section('content')
     <div class="container">
         <h1>

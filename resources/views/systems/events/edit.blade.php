@@ -1,13 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Adicionar Fotos')
+@section('title', 'Editar Foto')
+    
+@endsection
 
 @section('content')
     <div class="container">
         <h1>
-            POSTS - CREATE
+            EVENTS - EDIT {{ $id }}
         </h1>
-        <form action="{{ route('posts.store') }}" method="post">
+        <form action="{{ route('posts.update') }}" method="post">
             @csrf
             <input type="hidden" name="iduser">
             <input type="text" name="image" placeholder="IMAGE">

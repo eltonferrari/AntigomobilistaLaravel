@@ -35,7 +35,7 @@ class EventController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd('Cadastrando...');
     }
 
     /**
@@ -57,7 +57,7 @@ class EventController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('systems.events.edit', compact('id'));
     }
 
     /**
