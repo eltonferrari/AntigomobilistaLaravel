@@ -59,11 +59,16 @@
                     <!-- Left Side Of Navbar -->
                     @auth
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item ml-3">
+                            <li class="nav-item dropdown ml-3">
                                 <a href="{{ url('/posts') }}" 
-                                class="nav-link">
-                                    Fotos
-                                </a>
+                                   class="nav-link dropdown-toggle" 
+                                   data-toggle="dropdown">Fotos</a>
+                                <div class="dropdown-menu">
+                                    <a href="{{ url('/posts') }}" class="dropdown-item">Todos</a>
+                                    <a href="{{ url('/posts/create') }}" class="dropdown-item">Nova Foto</a>
+                                    <a href="{{ url('/posts/show/3') }}" class="dropdown-item">Ver</a>
+                                    <a href="{{ url('/posts/edit/3') }}" class="dropdown-item">Editar</a>
+                                </div>
                             </li>
                             <li class="nav-item ml-3">
                                 <a href="{{ url('/events') }}"
