@@ -3,4 +3,104 @@
   height: 35px;
 }
 
+@font-face {
+  font-family: 'IndieFlower';
+  src: url(../fonts/IndieFlower-Regular.ttf);
+}
+
+/* line 10, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+/* line 19, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.full-height {
+  height: 100vh;
+}
+
+/* line 23, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 29, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.position-ref {
+  position: relative;
+}
+
+/* line 33, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+/* line 39, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.content {
+  text-align: center;
+}
+
+/* line 43, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+a.brand,
+.title {
+  font-family: 'IndieFlower';
+  color: #1780f8;
+}
+
+/* line 49, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.title {
+  font-size: 10vw;
+}
+
+/* line 53, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 63, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+/* line 67, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.gallery {
+  margin: 1px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  background-color: whitesmoke;
+}
+
+/* line 75, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+/* line 79, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 84, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.gallery,
+.gallery img {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
 /*# sourceMappingURL=../../public/css/personalized_style.map */
