@@ -78,9 +78,8 @@ a.brand,
 /* line 67, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
 .gallery {
   margin: 1px;
-  border: 1px solid #ccc;
   float: left;
-  width: 400px;
+  width: 500px;
   background-color: whitesmoke;
 }
 
@@ -101,6 +100,44 @@ a.brand,
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+}
+
+/* line 91, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+input,
+textarea,
+button {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* line 99, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+label {
+  display: block;
+  cursor: pointer;
+}
+
+/* line 104, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+input {
+  width: 20em;
+  /* pode ser porcentagem - % */
+}
+
+/* line 108, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+textarea {
+  width: 20em;
+  /* pode ser porcentagem - % */
+  height: 10em;
+}
+
+/* line 113, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+input.radio {
+  width: auto;
+}
+
+/* line 117, C:/wamp/www/AntigomobilistaLaravel/resources/sass/personalized_style.scss */
+.radio {
+  margin-right: 1em;
 }
 
 /*# sourceMappingURL=../../public/css/personalized_style.map */

@@ -66,9 +66,9 @@ a.brand,
 
 .gallery {
     margin: 1px;
-    border: 1px solid #ccc;
+    //border: 1px solid #ccc;
     float: left;
-    width: 400px;
+    width: 500px;
     background-color: whitesmoke;
 }
 
@@ -86,4 +86,34 @@ a.brand,
     border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+}
+
+input,
+textarea,
+button {
+    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 20em;/* pode ser porcentagem - % */
+}
+
+textarea {
+	width: 20em;/* pode ser porcentagem - % */
+	height: 10em;
+}
+
+input.radio {
+	width: auto;
+}
+
+.radio {
+	margin-right: 1em;
 }
